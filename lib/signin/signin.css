@@ -20,3 +20,16 @@ body.signin-page header.app-header .user-nav a[href="/signup"] {
 	margin-right: 5px;
 	font-weight: bold;
 }
+
+#facebook-button {
+  background: url('/boot/images/login_bt_face.jpg');
+  width: 280px;
+  height: 43px;
+  padding-top: 12px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+#facebook-button a, a:hover, a:visited {
+  color: white;
+}

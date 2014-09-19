@@ -7,7 +7,7 @@
   h1#logo
     a(href='/')
       img(src=config['logo']).logo
-      span.logo-link= t('header.logo')
+      //- span.logo-link= t('header.logo')
 
   .user-nav.btn-group
     - if (citizen.id)
@@ -27,7 +27,9 @@
       a(href='/signup').login.pull-right
         i.icon-user
         span= t('header.signup')
-    a.login.pull-left(href=config['organization url'], target='_blank')
-      span= config['organization name']
+    //- a.login.pull-left(href=config['organization url'], target='_blank')
+    //-   span= config['organization name']
+    a.login.pull-left(href="http://vaimudar.org/democracia", target='_blank')
+      span= 'Sobre'
     //- a.login.pull-left(href='#', id='feedback')
     //-   span= t('header.feedback')
